@@ -25,7 +25,7 @@ class PayrollFrame(tk.Frame):
         self.other_deductions.grid(row=2, column=1, padx=10, pady=5)
         self.other_deductions.insert(0, "0")
 
-        # Buttons frame (side by side)
+        # Buttons frame 
         buttons_frame = tk.Frame(self, bg="cyan4")
         buttons_frame.pack(pady=10)
 
